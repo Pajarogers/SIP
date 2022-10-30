@@ -1,0 +1,54 @@
+.menu_list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+   
+ } 
+ a {
+    float:right;
+ }
+ div a{
+    display: block;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    color:aliceblue
+    
+
+
+}
+div a:hover{
+    background-color:mediumorchid;
+}
+#font{
+    font-size: 40px;
+    color: azure;
+   text-shadow:slategray;
+   text-align: center;
+}
+/* video background */
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  body {
+    background: url("../Videos/Com_BG.mov") repeat;
+    background-size: cover;
+  }
+  #new_font_color{
+    display: block;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+  color: black;
+
+
+}

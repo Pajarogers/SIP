@@ -1,0 +1,51 @@
+.menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+   
+ } 
+ li{
+    float:right;
+ }
+ li a{
+    display: block;
+    padding: 16px;
+    background-color:chartreuse;
+    text-align: center;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color:khaki;
+}
+h1{
+    text-align: center;
+    color: mediumpurple;
+   font-size: 60px;
+}
+body{
+   background: url(../Images/kids\ building\ blocks.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-attachment: fixed;
+   height: 100vh;
+   object-fit: cover;
+}
+#video{
+display: flex;
+background-color: aquamarine;
+align-content: center;
+justify-content: center;
+height: 300px;
+margin: 175px;
+
+}
+#video article{
+    background-color: aqua;
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
